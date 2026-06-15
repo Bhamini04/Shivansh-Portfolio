@@ -59,8 +59,8 @@ export function About() {
             <img src={portrait} alt="Shivansh Jaiswal portrait" className="absolute inset-0 w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-forest/80 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 glass-dark rounded-2xl p-4">
-              <div className="text-cream/70 text-xs uppercase tracking-widest">Currently</div>
-              <div className="text-cream font-display text-xl mt-1">BBA · Final Year</div>
+              <div className="text-cream/70 text-xs uppercase tracking-widest">Status</div>
+              <div className="text-cream font-display text-xl mt-1">Graduated - Open to Opportunities</div>
             </div>
           </div>
           <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full border-2 border-mustard floaty" />
@@ -112,7 +112,7 @@ export function About() {
 /* ============ JOURNEY ============ */
 export function Journey() {
   const steps = [
-    { year: "2020", title: "School", desc: "Foundations in business curiosity." , Icon: Cap},
+    { year: "2020", title: "School", desc: "St. Joseph's College Prayagraj" , Icon: Cap},
     { year: "2023", title: "BBA Begins", desc: "United Institute of Management.", Icon: GraduationCap },
     { year: "2024", title: "Digital Marketing Intern", desc: "The Adults · CRM & leads.", Icon: Megaphone },
     { year: "2025", title: "Sales Consultant", desc: "Volkswagen showroom floor.", Icon: Car },
