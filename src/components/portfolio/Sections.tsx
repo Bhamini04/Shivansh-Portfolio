@@ -624,7 +624,9 @@ export function Contact() {
             <div className="lg:col-span-5 space-y-3">
               <ContactRow Icon={MessageCircle} label="WhatsApp" value="+91 78978 71818" href={WHATSAPP_URL} />
               <ContactRow Icon={Mail} label="Email" value={EMAIL_ADDRESS} href={EMAIL_URL} />
-              <ContactRow Icon={Linkedin} label="LinkedIn" value="linkedin.com/in/shivansh-jaiswal" href={https://www.linkedin.com/in/shivansh-jaiswal-278a802a3?utm_source=share_via&utm_content=profile&utm_medium=member_android} />
+<ContactRow
+  Icon={Linkedin} label="LinkedIn"  value="linkedin.com/in/shivansh-jaiswal"  href="https://www.linkedin.com/in/shivansh-jaiswal-278a802a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+/>
               <ContactRow Icon={MapPin} label="Location" value="Prayagraj, Uttar Pradesh" />
             </div>
           </div>
