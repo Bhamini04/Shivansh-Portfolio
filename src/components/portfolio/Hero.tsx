@@ -51,12 +51,13 @@ export function Hero() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded-full bg-ink text-cream px-6 py-3.5 font-medium hover:bg-forest transition-colors"
-            >
-              <Download className="w-4 h-4" />
-              Download Resume
-            </a>
+  href="/Shivansh-Jaiswal-Resume.pdf"
+  download
+  className="inline-flex items-center gap-2 rounded-full bg-ink text-cream px-6 py-3.5 font-medium hover:bg-forest transition-colors"
+>
+  <Download className="w-4 h-4" />
+  Download Resume
+</a>
           </div>
 
           <div className="mt-14 grid grid-cols-3 gap-6 max-w-md">
