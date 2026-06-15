@@ -225,7 +225,7 @@ const certNssRepublic = "/assets/cert-nss-republic-BAvsPdb3.jpeg";
 const WHATSAPP_URL = "https://wa.me/917897871818?text=Hi%20Shivansh%2C%20I%20visited%20your%20portfolio.";
 const EMAIL_ADDRESS = "sarthakjaiswal2064@gmail.com";
 const EMAIL_URL = `mailto:${EMAIL_ADDRESS}?subject=Portfolio%20Inquiry`;
-const LINKEDIN_URL = "https://www.linkedin.com/in/shivansh-jaiswal/";
+const LINKEDIN_URL = "https://https://www.linkedin.com/in/shivansh-jaiswal-278a802a3?utm_source=share_via&utm_content=profile&utm_medium=member_android";
 const researchPaper = "/shivansh-research-paper.docx";
 function openExternalLink(url, label) {
   try {
@@ -719,7 +719,7 @@ function Contact() {
         /* @__PURE__ */ jsxs("div", { className: "lg:col-span-5 space-y-3", children: [
           /* @__PURE__ */ jsx(ContactRow, { Icon: MessageCircle, label: "WhatsApp", value: "+91 78978 71818", href: WHATSAPP_URL }),
           /* @__PURE__ */ jsx(ContactRow, { Icon: Mail, label: "Email", value: EMAIL_ADDRESS, href: EMAIL_URL }),
-          /* @__PURE__ */ jsx(ContactRow, { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/shivansh-jaiswal", href: LINKEDIN_URL }),
+          /* @__PURE__ */ jsx(ContactRow, { Icon: Linkedin, label: "LinkedIn", value: "https://www.linkedin.com/in/shivansh-jaiswal-278a802a3?utm_source=share_via&utm_content=profile&utm_medium=member_android", href: LINKEDIN_URL }),
           /* @__PURE__ */ jsx(ContactRow, { Icon: MapPin, label: "Location", value: "Prayagraj, Uttar Pradesh" })
         ] })
       ] })
